@@ -12,6 +12,6 @@ class TwitterDataCollector:
 
 # Example usage (to be called from main.py)
 if __name__ == "__main__":
-    collector = TwitterDataCollector("your_api_key", "your_api_secret_key", "your_access_token", "your_access_token_secret")
+    collector = TwitterDataCollector("fPydoBCmaE0LmRPo3xGYeoMBr", "NwWke3tbRWE2vcVWFXkwPCUwEhb6uPPGKuCGDFmrIlOpkCzvls", "1884883958372188160-m8IZKEU7ALIz4WsLBGWQsekwM4X9BN", "SPTPf1QvKPBg9HOrCFhV10h2lIFbfJqzJbYc69iYpcjYK")
     tweets = collector.collect_tweets("#YourTopic")
     print(tweets)
