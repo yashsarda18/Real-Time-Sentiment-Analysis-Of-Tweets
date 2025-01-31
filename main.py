@@ -1,3 +1,7 @@
+import nltk
+# Download necessary NLTK data
+nltk.download('punkt')
+nltk.download('punkt_tab')
 from data_collection.twitter_data import TwitterDataCollector 
 from data_preprocessing.text_cleaning import TextCleaner 
 from data_preprocessing.tokenisation import Tokeniser 
@@ -5,7 +9,7 @@ from model.sentiment_model import SentimentModel
 import time 
 
 def main():
-    twitter_collector = TwitterDataCollector("fPydoBCmaE0LmRPo3xGYeoMBr", "NwWke3tbRWE2vcVWFXkwPCUwEhb6uPPGKuCGDFmrIlOpkCzvls", "1884883958372188160-m8IZKEU7ALIz4WsLBGWQsekwM4X9BN", "SPTPf1QvKPBg9HOrCFhV10h2lIFbfJqzJbYc69iYpcjYK")
+    twitter_collector = TwitterDataCollector("AAAAAAAAAAAAAAAAAAAAAI1cygEAAAAA3lM2tn9dMzg4zLrJBaW3HibW6E4%3DsOJ5ZWtx4t6jmuv8c7tv4H0ybPkCZz01u41A2j5fYIYgkgviXE")  # Replace with your actual Bearer Token
     
     while True:
         tweets = twitter_collector.collect_tweets("#AI")  # Replace with desired topic
