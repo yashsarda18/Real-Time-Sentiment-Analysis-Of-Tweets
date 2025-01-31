@@ -79,3 +79,10 @@ streamlit run dashboard/dashboard.py
 
 - Thanks to [Tweepy](https://www.tweepy.org/) for providing an easy way to access the Twitter API.
 - Thanks to [Hugging Face](https://huggingface.co/) for their powerful NLP models.
+
+## Output Snapshots
+
+
+![](https://github.com/user-attachments/assets/ad03a68a-1f87-4c1e-bf45-3d7c7687ab0a)
+![](https://github.com/user-attachments/assets/7fdb3fe3-c29b-43f2-b0ce-6e54856a2bac)
+
